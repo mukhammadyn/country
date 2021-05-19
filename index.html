@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countries</title>
+  <!-- <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css"> -->
+  <link rel="stylesheet" href="/css/style-min.css">
+</head>
+
+<body>
+  
+  <!-- HEADER -->
+
+  <header class="site-header">
+
+    <div class="site-header-inner container">
+      <a href="index.html" class="site-title-link"><h1 class="site-title">Where in the world?</h1></a>
+      <button class="dark-mode-button">Dark mode</button>
+    </div>
+
+  </header>
+
+  <!-- MAIN -->
+
+  <main class="site-main">
+
+    <div class="site-main-inner container">
+
+      <form class="top-form" action="https://echo.htmlacademy.ru" method="post">
+        
+        <input class="search-input" type="text" name="search" aria-label="search countries" placeholder="Search for a country…" autocomplete="off">
+
+        <select class="select-region" name="region" id="region" aria-label="select countries">
+
+          <option class="select-option" value="" selected disabled>Filter by Region</option>
+          <option class="select-option" value="Africa">Africa</option>
+          <option class="select-option" value="America">America</option>
+          <option class="select-option" value="Asia">Asia</option>
+          <option class="select-option" value="Europe">Europe</option>
+          <option class="select-option" value="Oceania">Oceania</option>
+
+        </select>
+
+      </form>
+
+      <section class="country-cards">
+
+        
+          <ul class="country-card">
+            <li class="country-item-img"><img class="country-img" src="./img/flag1.png" alt="flag Germany" width="267" height="160"></li>
+            <li class="country-item"><h2 class="country-title">Germany</h2></li>
+            <li class="country-item"><p class="country-content">Population: <span class="mini-text">81,770,900</span></p></li>
+            <li class="country-item"><p class="country-content">Region: <span class="mini-text">Europe</span></p></li>
+            <li class="country-item"><p class="country-content">Capital: <span class="mini-text">Berlin</span></p></li>
+          </ul>
+          <ul class="country-card">
+            <li class="country-item-img"><img class="country-img" src="./img/flag2.png" alt="flag United States of America" width="267" height="160"></li>
+            <li class="country-item"><h2 class="country-title">United States of America</h2></li>
+            <li class="country-item"><p class="country-content">Population: <span class="mini-text">323,947,000</span></p></li>
+            <li class="country-item"><p class="country-content">Region: <span class="mini-text">Americas</span></p></li>
+            <li class="country-item"><p class="country-content">Capital: <span class="mini-text">Washington, D.C.</span></p></li>
+          </ul>
+          <ul class="country-card">
+            <li class="country-item-img"><img class="country-img" src="./img/flag3.png" alt="flag Brazil" width="267" height="160"></li>
+            <li class="country-item"><h2 class="country-title">Brazil</h2></li>
+            <li class="country-item"><p class="country-content">Population: <span class="mini-text">206,135,893</span></p></li>
+            <li class="country-item"><p class="country-content">Region: <span class="mini-text">Americas</span></p></li>
+            <li class="country-item"><p class="country-content">Capital: <span class="mini-text">Brasília</span></p></li>
+          </ul>
+          <ul class="country-card">
+            <li class="country-item-img"><img class="country-img" src="./img/flag4.png" alt="flag Iceland" width="267" height="160"></li>
+            <li class="country-item"><h2 class="country-title">Iceland</h2></li>
+            <li class="country-item"><p class="country-content">Population: <span class="mini-text">334,300</span></p></li>
+            <li class="country-item"><p class="country-content">Region: <span class="mini-text">Europe</span></p></li>
+            <li class="country-item"><p class="country-content">Capital: <span class="mini-text">Reykjavík</span></p></li>
+          </ul>
+        
+        
+          <ul class="country-card">
+            <li class="country-item-img"><img class="country-img" src="./img/flag5.png" alt="flag Afghanistan" width="267" height="160"></li>
+            <li class="country-item"><h2 class="country-title">Afghanistan</h2></li>
+            <li class="country-item"><p class="country-content">Population: <span class="mini-text">27,657,145</span></p></li>
+            <li class="country-item"><p class="country-content">Region: <span class="mini-text">Asia</span></p></li>
+            <li class="country-item"><p class="country-content">Capital: <span class="mini-text">Kabul</span></p></li>
+          </ul>
+          <ul class="country-card">
+            <li class="country-item-img"><img class="country-img" src="./img/flag6.png" alt="flag Åland Islands" width="267" height="160"></li>
+            <li class="country-item"><h2 class="country-title">Åland Islands</h2></li>
+            <li class="country-item"><p class="country-content">Population: <span class="mini-text">28,875</span></p></li>
+            <li class="country-item"><p class="country-content">Region: <span class="mini-text">Europe</span></p></li>
+            <li class="country-item"><p class="country-content">Capital: <span class="mini-text">Mariehamn</span></p></li>
+          </ul>
+          <ul class="country-card">
+            <li class="country-item-img"><img class="country-img" src="./img/flag7.png" alt="flag Albania" width="267" height="160"></li>
+            <li class="country-item"><h2 class="country-title">Albania</h2></li>
+            <li class="country-item"><p class="country-content">Population: <span class="mini-text">2,886,026</span></p></li>
+            <li class="country-item"><p class="country-content">Region: <span class="mini-text">Europe</span></p></li>
+            <li class="country-item"><p class="country-content">Capital: <span class="mini-text">Tirana</span></p></li>
+          </ul>
+          <ul class="country-card">
+            <li class="country-item-img"><img class="country-img" src="./img/flag8.png" alt="flag Algeria" width="267" height="160"></li>
+            <li class="country-item"><h2 class="country-title">Algeria</h2></li>
+            <li class="country-item"><p class="country-content">Population: <span class="mini-text">40,400,000</span></p></li>
+            <li class="country-item"><p class="country-content">Region: <span class="mini-text">Africa</span></p></li>
+            <li class="country-item"><p class="country-content">Capital: <span class="mini-text">Algiers</span></p></li>
+          </ul>
+        
+        
+
+      </section>
+
+    </div>
+
+  </main>
+
+</body>
+
+</html>
