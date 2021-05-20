@@ -85,6 +85,7 @@ body {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 .visually-hidden {
@@ -98,6 +99,10 @@ img {
   overflow: hidden;
 }
 
+.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
 
 /* CONTAINER */
 
@@ -141,7 +146,7 @@ img {
   color: #111517;
 }
 
-.dark-mode-button {
+.js-dark-mode-button {
   margin: 0;
   padding: 0;
   border: none;
@@ -153,11 +158,11 @@ img {
   transition: opacity 0.3s ease;
 }
 
-.dark-mode-button:hover {
+.js-dark-mode-button:hover {
   opacity: 0.6;
 }
 
-.dark-mode-button::before {
+.js-dark-mode-button::before {
   margin-right: 10px;
   display: block;
   content: "";
@@ -262,8 +267,7 @@ img {
   padding-top: 48px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  align-content: space-around;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
@@ -271,6 +275,8 @@ img {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  padding-top: 160px;
+  padding-left: 24px;
   margin-bottom: 63px;
   padding-bottom: 46px;
   width: 264px;
@@ -281,6 +287,54 @@ img {
   cursor: pointer;
   transition: box-shadow 0.3s ease,
   border 0.5s ease;
+}
+
+.card-bg-germany {
+  background-image: url(/img/flag-org1.png);
+  background-repeat: no-repeat;
+  background-position: top calc(-9px) center;
+}
+
+.card-bg-america {
+  background-image: url(/img/flag-org2.png);
+  background-repeat: no-repeat;
+  background-position: top calc(-9px) center;
+}
+
+.card-bg-brazil {
+  background-image: url(/img/flag-org3.png);
+  background-repeat: no-repeat;
+  background-position: top calc(-9px) center;
+}
+
+.card-bg-iceland {
+  background-image: url(/img/flag-org4.png);
+  background-repeat: no-repeat;
+  background-position: top calc(-9px) center;
+}
+
+.card-bg-afghanistan {
+  background-image: url(/img/flag-org5.png);
+  background-repeat: no-repeat;
+  background-position: top calc(-9px) center;
+}
+
+.card-bg-aland {
+  background-image: url(/img/flag-org6.png);
+  background-repeat: no-repeat;
+  background-position: top calc(-9px) center;
+}
+
+.card-bg-albania {
+  background-image: url(/img/flag-org7.png);
+  background-repeat: no-repeat;
+  background-position: top calc(-9px) center;
+}
+
+.card-bg-algeria {
+  background-image: url(/img/flag-org8.png);
+  background-repeat: no-repeat;
+  background-position: top calc(-9px) center;
 }
 
 .country-card:hover {
@@ -294,6 +348,8 @@ img {
 }
 
 .country-title {
+  margin: 0;
+  margin-top: 20px;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -319,9 +375,9 @@ img {
   color: #111517;
 }
 
-.country-item {
+/* .country-item {
   margin-left: 24px;
-}
+} */
 
 .country-item:nth-child(2) {
   margin-top: 24px;
